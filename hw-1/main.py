@@ -3,7 +3,7 @@ from functools import wraps
 
 
 """
-создать декоратор для замера времени выполнения функции
+Create a decorator to measure the time of the function
 """
 def count_time(func):
     @wraps(func)
@@ -16,8 +16,8 @@ def count_time(func):
 
 
 """
-написать функцию, которая принимает N целых чисел и возвращает список квадратов эих чисел. 
-Бонусом будет сделать keyword аргумент для выбора степени, в которую будут возводиться числа
+Write a function that takes N integers and returns a list of squares of those integers. 
+A bonus would be to make a keyword argument to select the degree to which the numbers will be raised
 """
 @count_time
 def power_up(*args, level=2):
@@ -25,8 +25,8 @@ def power_up(*args, level=2):
 
 
 """
-написать функцию, которая на вход принимает список из целых чисел, и возвращает только 
-чётные/нечётные/простые числа (выбор производится передачей дополнительного аргумента)
+Write a function that takes a list of integers as input, and returns only 
+even/odd/prime numbers (the choice is made by passing an additional argument)
 """
 def is_prime_number(num):
     if num > 1:
