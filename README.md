@@ -1,1 +1,1 @@
-# otus-python-jun
+# Homeworks for OTUS "Python dev junior"
