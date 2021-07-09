@@ -1,1 +1,1 @@
-# Homeworks for OTUS "Python dev junior"
+# Homeworks for OTUS "Python developer"
